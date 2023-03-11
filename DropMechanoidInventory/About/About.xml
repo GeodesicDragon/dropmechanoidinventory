@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Drop Mechanoid Inventory</name>
+	<author>GeodesicDragon</author>
+	<packageId>geodesicdragon.dropmechinv</packageId>
+	<url>https://discord.gg/BGKnpza</url>
+	<modVersion>1.0.1</modVersion>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Biotech</packageId>
+			<displayName>Biotech</displayName>
+		</li>
+	</modDependencies>
+	<description><![CDATA[<b>ABOUT</b>
+
+So, you've just taken your mechanoid army to wipe out a nearby faction base, and have returned triumphantly to your colony with the spoils of war. But now you have to go through the inventory of each mechanoid and spend ages pressing the 'Drop' button.
+
+Well, now you don't have to do that ever again! This mod adds a button to player-controlled mechanoids which makes them drop whatever they have in their inventories. Simply select them all, hit your 'Misc9' button (default I) and everything the mechs are carrying is dumped wherever they are, meaning all you have to worry about is getting it hauled away before it deteriorates.
+
+<b>SUPPORT</b>
+
+Please use my Discord server - https://discord.gg/BGKnpza - for all enquiries, as you're more likely to get a response.
+
+<b>TRANSLATION CREDITS</b>
+
+French: DeepL
+German: DeepL
+Italian: DeepL
+Spanish: DeepL
+Ukrainian: DeepL
+
+<b>IMAGE CREDITS</b>
+		
+https://game-icons.net/1x1/sbed/fall-down.html]]></description>
+</ModMetaData>

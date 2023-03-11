@@ -1,0 +1,12 @@
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\MechanoidDropInventory\Assemblies\MechanoidDropInventory.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\MechanoidDropInventory\Source\obj\Debug\MechanoidDropInventory.csproj.AssemblyReference.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\MechanoidDropInventory\Source\obj\Debug\MechanoidDropInventory.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\MechanoidDropInventory\Source\obj\Debug\MechanoidDropInventory.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\MechanoidDropInventoryButton\Source\obj\Debug\MechanoidDropInventory.csproj.AssemblyReference.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\MechanoidDropInventoryButton\Source\obj\Debug\MechanoidDropInventory.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\MechanoidDropInventoryButton\Assemblies\MechanoidDropInventoryButton.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\MechanoidDropInventoryButton\Source\obj\Debug\MechanoidDropInventoryButton.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\DropMechanoidInventory\Assemblies\MechanoidDropInventoryButton.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\DropMechanoidInventory\Source\obj\Debug\MechanoidDropInventory.csproj.AssemblyReference.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\DropMechanoidInventory\Source\obj\Debug\MechanoidDropInventory.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\DropMechanoidInventory\Source\obj\Debug\MechanoidDropInventoryButton.dll
