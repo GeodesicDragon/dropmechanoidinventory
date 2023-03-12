@@ -1,3 +1,7 @@
+Version 1.0.2 (March 12th 2023)
+
+* Fixed being able to drop the inventories of mechanoids you do not control.
+
 Version 1.0.1 (March 11th 2023)
 
 * Initial release.

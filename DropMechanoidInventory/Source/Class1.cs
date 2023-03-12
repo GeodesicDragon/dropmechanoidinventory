@@ -3,23 +3,32 @@ using UnityEngine;
 using Verse;
 using System.Collections.Generic;
 
-public class MechanoidDropInventoryGizmo : Command
+public class CompMechanoidDropInventory : ThingComp
 {
-
-    public MechanoidDropInventoryGizmo()
+    public override IEnumerable<Gizmo> CompGetGizmosExtra()
     {
-        defaultLabel = "DMI_GizmoLabel".Translate();
-        defaultDesc = "DMI_GizmoDescription".Translate();
-        //Translation isn't working for some reason, so I'll just default to English for now.
-        //defaultLabel = "Drop Inventory";
-        //defaultDesc = "All selected mechanoids will drop the contents of their inventories on the ground.";
-        icon = ContentFinder<Texture2D>.Get("UI/Commands/DropInventory");
-        hotKey = KeyBindingDefOf.Misc9;
+        if (this.parent.Faction == Faction.OfPlayer)
+        {
+            yield return new Command_Action
+            {
+                action = () =>
+                {
+                    DropInventory();
+                },
+                defaultLabel = "DMI_GizmoLabel".Translate(),
+                defaultDesc = "DMI_GizmoDescription".Translate(),
+                icon = ContentFinder<Texture2D>.Get("UI/Commands/DropInventory"),
+                hotKey = KeyBindingDefOf.Misc9,
+            };
+        }
     }
 
-    public override void ProcessInput(Event ev)
+    private void DropInventory()
     {
-        base.ProcessInput(ev);
+        if (this.parent.Faction != Faction.OfPlayer)
+        {
+            return;
+        }
 
         List<Pawn> selectedMechanoids = new List<Pawn>();
 
@@ -54,14 +63,6 @@ public class MechanoidDropInventoryGizmo : Command
                 }
             }
         }
-    }
-}
-
-public class CompMechanoidDropInventory : ThingComp
-{
-    public override IEnumerable<Gizmo> CompGetGizmosExtra()
-    {
-        yield return new MechanoidDropInventoryGizmo();
     }
 }
 
